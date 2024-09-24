@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -120,8 +120,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.19999999999999998,
+        "min_connection": 0.19999999999999998,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -239,11 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|469900|292100|5bb6bc97-b377-4449-bc92-b409d70b11f5|c371e244-3110-4c3a-8b4a-24a76f8874e1|/1fe94d98-d50f-4985-8f0a-d51e6882779a|/1fe94d98-d50f-4985-8f0a-d51e6882779a|/1fe94d98-d50f-4985-8f0a-d51e6882779a",
-      "power_pin_not_driven|1206500|1574800|a0106275-e474-4d3e-9afe-f00956ed683a|00000000-0000-0000-0000-000000000000|/1fe94d98-d50f-4985-8f0a-d51e6882779a|/1fe94d98-d50f-4985-8f0a-d51e6882779a|",
-      "power_pin_not_driven|787400|1270000|fe74285b-f11d-45a0-b544-34fb3ffa86ac|00000000-0000-0000-0000-000000000000|/1fe94d98-d50f-4985-8f0a-d51e6882779a|/1fe94d98-d50f-4985-8f0a-d51e6882779a|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -493,8 +489,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "manufacture/",
+      "pos_files": "manufacture/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -564,6 +560,36 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],
